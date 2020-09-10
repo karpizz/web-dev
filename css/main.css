@@ -93,6 +93,7 @@ end reset*/
 	letter-spacing: 3px;
 	font-weight: 600;
 	font-family: 'Lobster Two',cursive;
+	padding: 0 30px;
 }
 
 .navbar {
@@ -107,11 +108,10 @@ end reset*/
 	display: flex;
 	justify-content:center;
 	align-items:center;
-
 }
 
 .nav a {
-	color: #fff
+	color: #fff;
 }
 
 .nav > li > a:hover {
@@ -122,12 +122,12 @@ end reset*/
 
 .navbar-left {
 	display: flex;
-	margin: 0 20px 0 0;
+	padding: 0 40px;
 }
 
 .navbar-right {
 	display: flex;
-	margin: 0 0 0 20px;
+	padding: 0 40px;
 }
 
 .navbar:after {
